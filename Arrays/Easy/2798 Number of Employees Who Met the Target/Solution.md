@@ -30,5 +30,5 @@ There are 0 employees who met the target.
 
 Constraints:
 
-1 <= n == hours.length <= 50
-0 <= hours[i], target <= 105
+- 1 <= n == hours.length <= 50
+- 0 <= hours[i], target <= 105

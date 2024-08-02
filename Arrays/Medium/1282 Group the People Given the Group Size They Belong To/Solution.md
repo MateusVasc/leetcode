@@ -26,6 +26,6 @@ Output: [[1],[0,5],[2,3,4]]
 
 Constraints:
 
-groupSizes.length == n
-1 <= n <= 500
-1 <= groupSizes[i] <= n
+- groupSizes.length == n
+- 1 <= n <= 500
+- 1 <= groupSizes[i] <= n
