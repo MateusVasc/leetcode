@@ -27,3 +27,16 @@ int* twoSum(int* nums, int numsSize, int target, int* returnSize)
     return outArr;
 }
 
+typedef struct Entry
+{
+    int key;
+    int value;
+    struct Entry* next;
+} Entry;
+
+
+typedef struct Hashmap
+{
+    Entry** table;
+    int size;
+} Hashmap;
